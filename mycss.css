@@ -1,0 +1,26 @@
+.cell {
+    width: 50px;
+    border: 1px solid #efefef;
+    height: 20px;
+}
+
+tr.row:before {
+    content: attr(data-row);
+    background: #e6f3a3;
+    color: black;
+    text-align: right;
+    min-width: 50px;
+    display: inline-block;
+}
+
+th {
+    background: #e6f3a3;
+    color: black;
+    text-align: right;
+}
+
+.tableHeader:before {
+    width: 50px;
+    content: "";
+    display: inline-block;
+}
